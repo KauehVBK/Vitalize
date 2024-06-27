@@ -9,7 +9,7 @@
     <meta name="description" content="Site da estetica Vitalize">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logoshortcut.png" type="image/x-icon">
-    <script src="js/script.js"></script>
+    <script src="JS/script.js"></script>
     <title>Vitalize</title>
 </head>
 
@@ -18,54 +18,57 @@
         <img class="logonav" src="img/logonav2.png" alt="LogoVitalize">
         <nav>
             <ul>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#primeiro">Procedimentos</a></li>
                 <li><a href="#footer">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="indroducao">
+    <section class="indroducao" id="sobre">
 
-        <h1>Bruna Trombim Vitali</h1>
+        <h1>Vitalize</h1>
         <h2>Micropigmentação e Estética</h2>
+        
         <article class="textintro">
             <p>
                 Vitalize vem de Vitalizar: reestituir, fortalecer, revigorar, o nome surgiu em meio a pandemia 
                 (quando estávamos nos preparando para abrir o espaço). Veio do desejo de esperança em meio a todo acontecimento e também 
                 ligação ao meu último sobrenome Vitali.
             </p>
-            <img src="img/brunanob.png" alt="BrunaVitali">
+            <img src="img/brunanob.png" alt="BrunaVitali" class="brunaipe">
         </article>
+        
         <article class="segundotexto">
-            <img src="img/brunaa.png" alt="brunanoiped">
+            <img src="img/brunaa.png" alt="brunanoiped" class="bruna2">
             <p>
                 Bruna Trombim Vitali, 26 anos, atuando na área da estética desde de 2016. 
                 Possuo inúmeras especializações na área, de estética e cosmética, técnologia, possuo graduação em estética e 
                 imagem pessoal em 2020 e atualmente graduanda em biomedicina estética a qual finalizo este ano de 2024.
             </p>
         </article>
+  
     </section>
     
     <section id="primeiro" class="slideshow-container">
         <article class="mySlides fade">
-            <img src="img/img2.svg" alt="bruna_pc" class="img1">
+            <img src="img/1.svg" alt="bruna_pc" class="img1">
             <img src="img/procedimento (1).svg" alt="bruna_pc" class="img2">
         </article>
         <article class="mySlides fade">
-            <img src="img/img2.svg" alt="bruna_pc" class="img1">
+            <img src="img/2.svg" alt="bruna_pc" class="img1">
             <img src="img/procedimento (2).svg" alt="bruna_pc" class="img2">
         </article>
         <article class="mySlides fade">
-            <img src="img/img2.svg" alt="bruna_pc" class="img1">
+            <img src="img/3.svg" alt="bruna_pc" class="img1">
             <img src="img/procedimento (3).svg" alt="bruna_pc" class="img2">
         </article>
         <article class="mySlides fade">
-            <img src="img/img2.svg" alt="bruna_pc" class="img1">
+            <img src="img/4.svg" alt="bruna_pc" class="img1">
             <img src="img/procedimento (4).svg" alt="bruna_pc" class="img2">
         </article>
         <article class="mySlides fade">
-            <img src="img/img2.svg" alt="bruna_pc" class="img1">
+            <img src="img/5.svg" alt="bruna_pc" class="img1">
             <img src="img/procedimento (5).svg" alt="bruna_pc" class="img2">
         </article>
 
@@ -76,29 +79,38 @@
     <footer class="footer" id="footer">
         
         <section class="right">
-            <h2 class="title-footer">Contatos</h2>
-            <h1 class="segtitle-footer">Atendimento segunda a sexta</h1>
+           
+            <h1 class="title-footer">Contato</h1>
+            <h2 class="segtitle-footer">Atendimento segunda a sexta</h2>
+            
             <section class="contato">
-                <a href=""><img class="instagrameste" src="img/Me siga no instagram.png" alt="Mesiganoinsta"></a>
-                <a href=""><img class="instagrambru" src="img/Me siga no instagram (2).png" alt="Mesiganoinsta"></a>
-                <a href=""><img class="contatocri" src="img/Me siga no instagram (1).png" alt="Mesiganoinsta"></a>
-                <a href=""><img class="contatobra" src="img/Me siga no instagram (3).png " alt="Mesiganoinsta"></a>
-             </section>
+                
+                <section class="whatzap">
+                    <a href="https://api.whatsapp.com/message/PP4RJS6MEAZ2I1?autoload=1&app_absent=0" target="_blank"><img class="instagrameste" src="img/Me siga no instagram.png" alt="Mesiganoinsta"></a>
+                    <a href="" target="_blank"><img class="contatocri" src="img/Me siga no instagram (1).png" alt="Mesiganoinsta"></a>
+                </section>
+               
+                <section class="instagram">
+                    <a href="https://www.instagram.com/brunavitali_/" target="_blank"><img class="instagrambru" src="img/Me siga no instagram (2).png" alt="Mesiganoinsta"></a>
+                    <a href="https://www.instagram.com/esteticavitalize/" alt="Mesiganoinsta" target="_blank"><img class="contatobra" src="img/Me siga no instagram (3).png "></a>
+                </section>
+
+            </section>
         </section>
 
         <section class="left">
          <p class="links">
           
-            <a href="#">Sobre</a>
+            <a href="#sobre">Sobre</a>
             <a href="#primeiro">Procedimentos</a>
             <a href="#footer">Contato</a>
         
-        </p>
+         </p>
         <p class="Copyright">Copyright &copy; 2022 Vitalize - Todos os Direitos Reservados.</p>
-
         </section>
+        
         <script src="JS/script.js"></script>
+    
     </footer>
 </body>
-
 </html>
