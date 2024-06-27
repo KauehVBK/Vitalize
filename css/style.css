@@ -40,54 +40,81 @@ header li a:hover {
 .indroducao{
     overflow: hidden;
 }
-.textintro img,p{
-    float: left;
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-
-}
-.segundotexto img,p{
-    float: left;
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
 section.indroducao h1{
-
+    margin-left: 100px;
     font-family: baskerville;
     font-size: 55px;
-    margin-top: 100px;
-    margin-left: 50px;
     color: #b27777;/*cor da letra*/
-
 
 }
 
 section.indroducao h2{
-    font-size: 25px;
+    margin-left: 100px;
+    font-size: 35px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 60px;
     color: #b27777;/*cor da letra*/
 }
+section.indroducao img{
+    display: flex;
+    width: 500px;
+    height: auto;
 
-section.indroducao p{
+}
+.brunaipe{
+    float: left;
+    margin-left: 80px;
+    margin-right: 100px;
+}
 
+
+section.indroducao .textintro p{
+    margin-left: 100px;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 50px;
+    margin-right: 10%;
     color: #b27777;/*cor da letra*/
-}
 
-section.indroducao img{
-    display: block;
-    width: 500px;
-    height: auto; 
+}
+.bruna2{
+    
+    float: right;
+    margin-right: 300px;
+}
+section.indroducao .segundotexto h1{
+    margin-left: 100px;
+    margin-bottom: -10px;
+}
+section.indroducao .segundotexto p{
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b27777;/*cor da letra*/
     
 
 }
 
+
+@media screen and (min-width:1432px) {
+    section.indroducao .segundotexto h1{
+        
+        float: left;
+        margin-right: 500px;
+    } 
+    section.indroducao .segundotexto p{
+        display: flex;
+        float: left;
+        width: 600px;
+        margin-right: 80px;
+    }
+
+
+}
+@media screen and (max-width:1428px) {
+    .bruna2{
+        display: none;
+    }
+  
+}
 
 
 
@@ -225,7 +252,7 @@ text-align: center;
     color: #b27777;/*cor da letra*/
 }
 section.left{
-  background-color: black;
+
 }
 
 a{
@@ -319,19 +346,16 @@ a{
         height: auto;
     }
 
+
+
 }
 @media screen and (max-width: 1115px){
-    .textintro .brunaipe{
+     .brunaipe{
         display: none;
     }
-    .textintro, .segundotexto{
-        width: 160%;
-    }
-    .segundotexto .bruna2{
-        width:450px;
-        height: auto;
-    }
+
 }
 @media screen and (min-width: 1280px) {
     .footer .Copyright    { font-size: 16px; }
+    
     }
