@@ -270,6 +270,8 @@ section.indroducao .segundotexto p{
 .mapaa{
     border-radius: 10px;
     outline:#b27777 3px solid;
+    width:600px ;
+    height:500px;
 }
 footer{
     background-color:#2d221d;
@@ -335,8 +337,12 @@ footer{
         width: 350px;
         height: auto;
     }
-    .mapa{
-        display: none;
+    .titulopro h1{
+        font-size: 35px;
+    }
+    .mapaa {
+        width:95%;
+        height:350px ;
     }
     .Copyright{
         display: none;
