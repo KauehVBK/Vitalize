@@ -123,6 +123,13 @@ section.indroducao .segundotexto p{
 
 }
 
+.titulopro h1{
+    font-family: baskerville;
+    font-size: 55px;
+    color: #b27777;/*cor da letra*/
+    text-align: center;
+}
+
 /* COMEÇA O SLIDE */
 
 .mySlides {
@@ -182,7 +189,7 @@ section.indroducao .segundotexto p{
     text-align: center;
 }
 
-.fade {
+/* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -205,7 +212,7 @@ section.indroducao .segundotexto p{
     to {
         opacity: 1
     }
-}
+} */
 
 
 .img1 {
@@ -265,7 +272,7 @@ section.indroducao .segundotexto p{
     outline:#b27777 3px solid;
 }
 footer{
-    background-color: rgb(31, 31, 31);
+    background-color:#2d221d;
     text-align: center;
 }
 
@@ -388,6 +395,7 @@ footer{
         margin-left: auto;
     }
     section.indroducao .textintro p,section.indroducao .textintro h2{
+        width: 100%;
         margin: auto;
         text-align: center;
     
