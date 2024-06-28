@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /*Header*/
 @font-face {
     font-family: 'baskerville';
@@ -6,12 +11,12 @@
 
 header img{
     position: absolute;
-    
 }
 
 header ul {
+
     list-style-type: none;
-    margin: 0 50px 0 50px;
+    margin: 8px 50px 0 50px;
     padding: 1px; 
     overflow: hidden;
     border-bottom: 1px solid #b27777;
@@ -33,7 +38,7 @@ header li a {
 header li a:hover {
     color: #503b33;/* Mudar a cor do link ao passar o mouse */
 }
-  
+
 /*Body*/
 
 
@@ -41,6 +46,7 @@ header li a:hover {
     overflow: hidden;
 }
 section.indroducao h1{
+    margin-top: 50px;
     margin-left: 100px;
     font-family: baskerville;
     font-size: 55px;
@@ -49,6 +55,7 @@ section.indroducao h1{
 }
 
 section.indroducao h2{
+    margin-top: 40px;
     margin-left: 100px;
     font-size: 35px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -68,21 +75,23 @@ section.indroducao img{
 
 
 section.indroducao .textintro p{
+
     margin-left: 100px;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 10%;
+    width: 75%;
+    height: auto;
     color: #b27777;/*cor da letra*/
 
 }
 .bruna2{
     
     float: right;
-    margin-right: 300px;
+    margin-right: 100px;
 }
 section.indroducao .segundotexto h1{
+    
     margin-left: 100px;
-    margin-bottom: -10px;
 }
 section.indroducao .segundotexto p{
     margin-left: 100px;
@@ -124,8 +133,7 @@ section.indroducao .segundotexto p{
     box-sizing: border-box;
     display: none;
     margin-top: 25px;
-    margin-left: -1%;
-    margin-right: -0.4%;
+
 }
 
 .slideshow-container .mySlides img {
@@ -218,21 +226,21 @@ section.indroducao .segundotexto p{
 /*footer*/
 
 
-.footer .right img{
+.contatos  .right img{
 width: 50%;
 height: auto;
 }
 .contato {
     font-size: 0; 
 }
-.footer .right .contato .whatzap ,.footer .right .contato .instagram {
+.contatos  .right .contato .whatzap ,.contatos  .right .contato .instagram {
 
 text-align: center;
 }
-.footer .right .contato img  {
+.contatos  .right .contato img  {
 
    
-    width: 40%; 
+    width: 30%; 
     padding: 5px; 
 
 }
@@ -240,7 +248,6 @@ text-align: center;
     text-align: center;
     font-size: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 50px;
     color: #b27777;/*cor da letra*/
 
 }
@@ -248,24 +255,42 @@ text-align: center;
     text-align: center;
     font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 50px;
     color: #b27777;/*cor da letra*/
 }
-section.left{
-
+footer{
+    background-color: #503b33;
+    text-align: center;
 }
 
-a{
+.links a,.links p{
+    text-align: left;
+    color:white ;
     text-decoration: none;
+    padding-left: 10px;
+    margin-bottom: -8px;
+}
+.mapa h1{
+    padding-top: 10px;
+    padding-bottom:10px ;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mapaa{
+
+
 }
 .Copyright{
     text-align: right;
+    padding-bottom:10px ;
+    color:white;
+
 }
 /*Responsividade*/
 
 
 @media screen and (min-width: 601px) {
     header img {
+        
         width: 180px;
         height: auto;
         top: 10px;
@@ -285,6 +310,7 @@ a{
         height: auto;
         top: 0.09cm;
         margin-left: 15px;
+        margin-top: -8px;
     }
 
     header ul {
@@ -299,14 +325,23 @@ a{
         width: 350px;
         height: auto;
     }
+    .mapa{
+        display: none;
+    }
+    .Copyright{
+        display: none;
+    }
+    .links a,.links p{
+        text-align: center;
+        font-size: large;
+    }
 }
 @media screen and (max-width: 768px) {
     .mySlides {
         box-sizing: border-box;
         display: none;
         margin-top: 25px;
-        margin-left: -1%;
-        margin-right: -1%;
+
     }
 
     .slideshow-container .mySlides img {
@@ -328,24 +363,36 @@ a{
     }
 
     
-    .footer h1{
+    .contatos  h1{
         margin-left: -5px
     }
-    .footer h2{
+    .contatos  h2{
         margin-left: -5px
     }
-    .footer .right .contato a{
+    .contatos  .right .contato a{
    
         display: flex;
         justify-content: center; 
         align-items: center;
         
     }
-    .footer .right .contato img{
+    .contatos .right .contato img{
         width: 70%;
         height: auto;
     }
-
+    section.indroducao .textintro h1{
+        text-align: center;
+        margin-left: auto;
+    }
+    section.indroducao .textintro p,section.indroducao .textintro h2{
+        margin: auto;
+        text-align: center;
+    
+    } 
+    section.indroducao .segundotexto p,section.indroducao .segundotexto h1{
+        margin: auto;
+        text-align: center;
+    }
 
 
 }
