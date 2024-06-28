@@ -257,8 +257,22 @@ text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #b27777;/*cor da letra*/
 }
+.mapa h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    color: #b27777;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mapa{
+    text-align: center;
+}
+.mapaa{
+    border-radius: 10px;
+    outline:#b27777 3px solid;
+}
 footer{
-    background-color: #503b33;
+    background-color: rgb(31, 31, 31);
     text-align: center;
 }
 
@@ -269,15 +283,11 @@ footer{
     padding-left: 10px;
     margin-bottom: -8px;
 }
-.mapa h1{
-    padding-top: 10px;
-    padding-bottom:10px ;
-    color:white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.mapaa{
 
-
+.logofooter{
+    margin-top: -46px;
+    width: 5%;
+    height: auto;
 }
 .Copyright{
     text-align: right;
